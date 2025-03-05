@@ -1,0 +1,22 @@
+id: d7_article_migration
+label: 'Migrate Drupal 7 Articles to Drupal 11'
+migration_group: d7_to_d11
+source:
+  plugin: d7_article_with_body
+
+process:
+  title: title
+  body/value: body/value
+  body/format: body_format
+  uid: uid
+  status: status
+  created: created
+  changed: changed
+
+destination:
+  plugin: entity:node
+  default_bundle: article
+
+migration_dependencies:
+  required: []
+  optional: []

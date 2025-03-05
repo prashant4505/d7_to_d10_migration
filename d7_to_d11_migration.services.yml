@@ -1,0 +1,4 @@
+services:
+  d7_to_d11_migration.migration_lookup:
+    class: Drupal\migrate_drupal\MigrationLookup
+    arguments: ['@database']

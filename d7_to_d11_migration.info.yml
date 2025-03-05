@@ -1,0 +1,11 @@
+name: 'D7 to D11 Article Migration'
+type: module
+description: 'Migrates Article content type from Drupal 7 to Drupal 11.'
+package: 'Migration'
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:migrate
+  - drupal:migrate_drupal
+  - drupal:migrate_plus
+  - drupal:migrate_tools
+  - drupal:node
