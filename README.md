@@ -73,9 +73,3 @@ drush migrate:rollback d7_article_migration
   ```
 - Verify that the Drupal 7 database connection is correctly configured.
 - Ensure required migration modules are enabled.
-
-## License
-
-This module is provided as-is under the GPL-2.0 license.
-
-
